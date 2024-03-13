@@ -1,0 +1,73 @@
+<!--
+    etiket isimlerini direk verebiliyoruz
+    + kardeş öğe
+    > içinde öğe
+    ^ yukarı çık ve öğe oluşştur
+    * carp -> p*3 
+    lorem
+    lorem4 -> 4 kelimelik lorem üret
+    . -> class
+    # -> id
+-->
+
+<!-- h1+p+p+h2+p -->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+
+<!--p*4-->
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- > içinde öğe -->
+<!-- ul>li -->
+<ul>
+    <li></li>
+</ul>
+ 
+<!-- ul>li*3^p-->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+
+<!-- lorem: anlamsız yazı oluşturur -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ducimus explicabo obcaecati aliquid. Magnam nemo modi, error mollitia nulla exercitationem consectetur minima quam dolorum doloremque tempora delectus inventore alias repudiandae!
+</p>
+
+<!--lorem4: 4 kelimelik lorem üretir.-->
+<p>Lorem ipsum dolor sit.</p>
+
+<!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 ---hatalı---->
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 ---->
+<ul>
+    <li>Lorem.</li>
+    <li>Deleniti?</li>
+    <li>Quibusdam?</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Iure amet veritatis nostrum.</p>
+<h3>Lorem.</h3>
+
+<!--h3.deneme-->
+<h3 class="deneme"></h3>
+<!--h3.deneme>lorem1---hiç boşluk olmadan yazmamız lazım-->
+<h3 class="deneme">Lorem.</h3>
+<!-- h3#id_olsun>lorem1 -->
+<h3 id="id_olsun">Lorem.</h3>
+<!-- h3.deneme#id_olsun>lorem1 -->
+<h3 class="deneme" id="id_olsun">Lorem.</h3>
+
+<!-- .tepki -->
+<div class="tepki"></div>
+
+<!-- ul>li.tepki -->
+<ul>
+    <li class="tepki"></li>
+</ul>
