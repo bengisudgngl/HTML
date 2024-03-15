@@ -1,0 +1,55 @@
+<!-- action özniteliği -->
+action özniteliği, form verilerinin nereye gönderileceğini belirler. Bu genellikle bir URL'dir. Kullanıcı formu gönderdiğinde, veriler bu URL'ye gönderilir.
+<form action="/thankyou.html"></form>
+<!-- method özniteliği -->
+method özniteliği, form verilerinin nasıl gönderileceğini belirler. 
+İki yaygın değer "GET" ve "POST" dur.
+
+"GET": Bu yöntem, verileri URL'nin sonuna ekleyerek verileri sunucuya gönderir. Bu, gönderilecek veri miktarının küçük olduğu durumlarda kullanılır. 
+Ancak, bu yöntemle gönderilen veriler URL'de göründüğü için hassas verilerin gönderilmesi için uygun değildir.
+
+- <form>: Formumuzun başlangıcını ve sonunu belirler.
+
+- <label>: Giriş alanının açıklamasını belirler. for özelliği, etiketin hangi girdi elementine ait olduğunu belirtir.
+    
+- <input>: Kullanıcının bilgi girebileceği bir girdi alanı oluşturur.
+
+
+1. <input>
+
+<input> etiketi, bir HTML formunun en temel elemanıdır ve birçok farklı türde veriyi kabul edebilir. <input> elemanının type özelliği, form elemanının türünü belirler. Örneğin:
+
+- type="text": Metin girişi için standart form elemanıdır.
+
+- type="password": Girilen metni maskeleyerek kullanıcıdan bir parola girişi alır.
+
+- type="radio": Kullanıcının birden çok seçenek arasından tek bir seçeneği seçmesini sağlar.
+
+- type="checkbox": Kullanıcının birden çok seçenek arasından bir veya daha fazla seçeneği seçmesini sağlar.
+
+- type="submit": Formu sunucuya göndermek için kullanılır.
+
+- type="reset": Formda girilen tüm bilgileri sıfırlar.
+
+2. <textarea>
+
+<textarea> etiketi, kullanıcının çok satırlı metin girişi yapabileceği bir metin alanı oluşturur. Genellikle kullanıcıdan yorumlar veya diğer uzun form girişleri almak için kullanılır. rows ve cols öznitelikleri ile metin alanının boyutu belirlenebilir.
+
+3. <select> ve <option>
+
+<select> etiketi, bir açılır liste oluşturur. <option> etiketi ile birlikte kullanılarak kullanıcının bir veya birden fazla seçenek arasından seçim yapabilmesi sağlanır.
+
+4. <button>
+
+<button> etiketi, tıklanabilir bir düğme oluşturur. Formlarda genellikle bir "Gönder" veya "Sıfırla" düğmesi olarak kullanılır, ancak aynı zamanda JavaScript ile birlikte de kullanılabilir.
+
+5. <label>
+
+<label> etiketi, form elemanları için anlamlı ve erişilebilir bir etiket oluşturur. for özelliği, etiketin hangi form elemanına ait olduğunu belirler.
+
+Her bir form elemanı, name özniteliği ile sunucuya gönderildiğinde tanımlanır. value özniteliği, form elemanının değerini belirler (kullanıcı tarafından girilirse).
+
+Form elemanları genellikle bir <form> etiketi içinde gruplandırılır, bu da genellikle bir action (formun gönderileceği URL) ve method (genellikle "GET" veya "POST") özelliği içerir.
+
+Bu elemanlar ve özellikler, çeşitli form kontrollerini oluşturarak kullanıcılardan giriş almayı mümkün kılar. HTML form elemanlarının doğru kullanımı, kullanıcıların bilgiyi kolayca ve doğru bir şekilde girmesini ve sunucuların bu bilgiyi doğru bir şekilde işlemesini sağlar.
+

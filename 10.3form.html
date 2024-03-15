@@ -1,0 +1,89 @@
+<!-- <input> Elemanı: <input> -->
+    <form>
+        Ad: <input type="text" name="name"><br>
+        Email: <input type="email" name="email"><br>
+        <input type="submit" value="Gönder">
+    </form>
+
+<!-- <textarea> Elemanı: <textarea>  -->
+    <form>
+        <label for="message">Mesajınız:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50">
+        </textarea><br><br>
+        <input type="submit" value="Gönder">
+      </form>
+
+<!-- <select> Elemanı: <select>  -->
+    <form>
+        Sevdiğiniz meyve:<br>
+        <select name="fruit">
+          <option value="apple">Elma</option>
+          <option value="banana">Muz</option>
+          <option value="cherry">Kiraz</option>
+        </select><br>
+        <input type="submit" value="Gönder">
+      </form>
+
+<!-- örnek 2 -->
+    <form>
+        <label for="cars">Araba seçin:</label>
+        <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        </select><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+
+<!-- <button> Elemanı: <button> -->
+    <form>
+        Ad: <input type="text" name="name"><br>
+        Email: <input type="email" name="email"><br>
+        <button type="submit">Gönder</button>
+    </form>
+
+<!-- <label> Elemanı:</label> elemanı, bir form elemanı için açıklama sağlar. for özelliği, etiketin hangi form elemanı ile ilişkili olduğunu belirtir. -->
+    <form>
+        <label for="name">Ad:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit" value="Gönder">
+    </form>
+
+<!-- Metin Girişi (<input type="text">) -->
+    <form>
+        <label for="fname">Ad:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Soyad:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+
+<!-- E-posta ve Şifre Girişi (<input type="email"> ve <input type="password">) -->
+    <form>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="pwd">Şifre:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+
+<!-- Onay Kutusu (<input type="checkbox">) -->
+    <form>
+        <label for="vehicle1"> Arabam var:</label>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Car"><br>
+        <label for="vehicle2"> Bisikletim var:</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Bike"><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+
+<!-- Radyo Düğmeleri (<input type="radio">)    -->
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Erkek</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kadın</label><br><br>
+        <input type="submit" value="Gönder">
+    </form>
